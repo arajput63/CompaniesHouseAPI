@@ -1,0 +1,38 @@
+:root {
+    --colour_text: rgb(0, 4, 56);
+    --colour_hover: rgb(0, 32, 58);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: grid;
+}
+
+#search_input {
+    margin: auto;
+    height: 2rem;
+    width: 40%;
+    box-shadow: 0 5px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.btn {
+    border-radius: 4px;
+    background-color:lightskyblue;
+    color: var(--colour_main);
+    border: none;
+    width: 40%;
+    margin: auto;
+    height: 3rem;
+    box-shadow: 0 5px 20px -8px rgba(0, 0, 0,.7);
+    transition: all ease-in 0.3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--colour_hover);
+    color: honeydew;
+}

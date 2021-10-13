@@ -1,0 +1,17 @@
+#results_list {
+    list-style-type: none;
+}
+
+#results_list li {
+    padding: 5px;
+    transition: all ease-in 0.3s;
+    width: 60%;
+    margin:auto;
+    border-radius: 5px;
+}
+
+#results_list li:hover {
+    cursor: pointer;
+    background-color: var(--colour_hover);
+    color: honeydew;
+}
